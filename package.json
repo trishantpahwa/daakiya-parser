@@ -1,0 +1,67 @@
+{
+  "name": "daakiya-parser",
+  "version": "1.0.0",
+  "description": "A parser for Postman to make collections of existing API.",
+  "main": "bin/index.js",
+  "dependencies": {
+    "ansi-align": "^3.0.1",
+    "ansi-regex": "^5.0.1",
+    "ansi-styles": "^4.3.0",
+    "boxen": "^5.1.2",
+    "camelcase": "^6.3.0",
+    "chalk": "^4.1.2",
+    "charset": "^1.0.1",
+    "cli-boxes": "^2.2.1",
+    "cliui": "^8.0.1",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "emoji-regex": "^8.0.0",
+    "escalade": "^3.2.0",
+    "expressjs-route-coverage": "^1.2.3",
+    "figlet": "^1.7.0",
+    "file-type": "^3.9.0",
+    "get-caller-file": "^2.0.5",
+    "has-flag": "^4.0.0",
+    "http-reasons": "^0.1.0",
+    "iconv-lite": "^0.6.3",
+    "is-fullwidth-code-point": "^3.0.0",
+    "liquid-json": "^0.3.1",
+    "lodash": "^4.17.21",
+    "mime-db": "^1.52.0",
+    "mime-format": "^2.0.1",
+    "mime-types": "^2.1.35",
+    "postman-collection": "^4.5.0",
+    "postman-url-encoder": "^3.0.5",
+    "punycode": "^2.3.1",
+    "require-directory": "^2.1.1",
+    "safer-buffer": "^2.1.2",
+    "semver": "^7.6.3",
+    "string-width": "^4.2.3",
+    "strip-ansi": "^6.0.1",
+    "supports-color": "^7.2.0",
+    "type-fest": "^0.20.2",
+    "uuid": "^8.3.2",
+    "widest-line": "^3.1.0",
+    "wrap-ansi": "^7.0.0",
+    "y18n": "^5.0.8",
+    "yargs": "^17.7.2",
+    "yargs-parser": "^21.1.1"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trishantpahwa/daakiya-parser.git"
+  },
+  "keywords": [
+    "Postman",
+    "Newman"
+  ],
+  "author": "Trishant Pahwa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trishantpahwa/daakiya-parser/issues"
+  },
+  "homepage": "https://github.com/trishantpahwa/daakiya-parser#readme"
+}
