@@ -8,6 +8,7 @@
     "commander": "^12.1.0",
     "enquirer": "^2.4.1",
     "expressjs-route-coverage": "^1.2.3",
+    "figlet": "^1.8.0",
     "postman-collection": "^4.5.0"
   },
   "scripts": {
