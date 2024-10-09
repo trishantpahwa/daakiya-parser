@@ -1,6 +1,6 @@
 {
   "name": "daakiya-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A parser for Postman to make collections of existing API.",
   "main": "bin/index.js",
   "bin": "bin/index.js",
