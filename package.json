@@ -1,0 +1,33 @@
+{
+  "name": "daakiya-parser",
+  "version": "1.0.0",
+  "description": "A parser for Postman to make collections of existing API.",
+  "main": "bin/index.js",
+  "bin": "bin/index.js",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "enquirer": "^2.4.1",
+    "expressjs-route-coverage": "^1.2.3",
+    "postman-collection": "^4.5.0"
+  },
+  "scripts": {
+    "test": "mocha --require esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/trishantpahwa/daakiya-parser.git"
+  },
+  "keywords": [
+    "Postman",
+    "Newman"
+  ],
+  "author": "Trishant Pahwa",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/trishantpahwa/daakiya-parser/issues"
+  },
+  "homepage": "https://github.com/trishantpahwa/daakiya-parser#readme",
+  "devDependencies": {
+    "mocha": "^10.7.3"
+  }
+}
