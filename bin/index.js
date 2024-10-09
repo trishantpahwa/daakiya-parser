@@ -6,6 +6,9 @@ const { Collection, Item, Request, Url, Header } = require('postman-collection')
 const { logRegisteredRoutes } = require('expressjs-route-coverage');
 const { program } = require('commander');
 const { prompt } = require('enquirer');
+const figlet = require('figlet');
+
+console.log(figlet.textSync("Daakiya Parser"))
 
 // Set up commander to parse CLI arguments
 program
