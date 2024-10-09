@@ -40,6 +40,8 @@ daakiya-parser -a ./sample-app/src/index.js -p ./sample-app/package.json -b http
     module.exports = { app };
 ```
 
+![Exmaple](./1728450375.svg)
+
 To-Dos:
 
 -   [ ] Add support for Flask.
